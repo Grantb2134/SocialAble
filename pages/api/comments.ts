@@ -32,7 +32,6 @@ export default async function comments(
       if (error){
         return res.status(500).send({
           name: "unable to create comment",
-          ...error
         }) 
       }
     }
